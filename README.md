@@ -91,7 +91,7 @@ Show a form to associate a Country with a Traveler. It should have:
 
 - a select dropdown to choose a Country
 - a select dropdown to choose a Traveler
-- a radio button to say whether or not the vacation is a favorite
+- a checkbox to say whether or not the vacation is a favorite
 - a submit button to create the Vacation
 
 After successfully creating a Vacation, the user should be redirected to the selected Country's show page.
