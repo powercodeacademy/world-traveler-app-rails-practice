@@ -49,6 +49,8 @@ Traveler
 
 ## Instructions
 
+***Specs are available to help test drive them. Use them if you want!***
+
 Update the code of the application to meet the following deliverables. Follow RESTful naming conventions and the MVC pattern to divide responsibility.
 
 ***Read through these deliverables carefully to understand the requirements for this code challenge. Tackle them one by one, as they build on each other sequentially.***
