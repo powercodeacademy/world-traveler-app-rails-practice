@@ -1,3 +1,5 @@
+require "rails_helper"
+
 describe 'country show', :type => :feature do
   it 'contains a link to the show page' do
     country = create_country
@@ -21,8 +23,8 @@ describe 'country show', :type => :feature do
 
     visit country_path(country)
 
-    expect(page).to have_countent "Argentina"
-    expect(page).to have_countent "Country in South America"
+    expect(page).to have_content "Argentina"
+    expect(page).to have_content "Country in South America"
   end
 
   def create_country

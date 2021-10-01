@@ -1,3 +1,5 @@
+require "rails_helper"
+
 describe Vacation do
   context 'Vacation validations' do
     it "vacation is valid" do

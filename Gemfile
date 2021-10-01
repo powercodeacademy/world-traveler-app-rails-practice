@@ -58,3 +58,5 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem "rspec-rails", "~> 5.0"
 
 gem "faker", "~> 2.19"
+
+gem "pry-rails", "~> 0.3.9"

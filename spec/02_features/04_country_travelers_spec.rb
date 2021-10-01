@@ -1,3 +1,5 @@
+require "rails_helper"
+
 describe 'country show with travelers', :type => :feature do
   it "displays all travelers a country has " do
     sebastian = create_traveler(name: "Sebastian", age: 29)
@@ -8,8 +10,8 @@ describe 'country show with travelers', :type => :feature do
 
     visit country_path(country)
 
-    expect(page).to have_countent "Sebastian"
-    expect(page).to have_countent "Gillian"
+    expect(page).to have_content "Sebastian"
+    expect(page).to have_content "Gillian"
   end
 
   def create_traveler(name:, age:)

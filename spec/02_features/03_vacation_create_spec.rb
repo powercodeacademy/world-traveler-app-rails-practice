@@ -1,3 +1,5 @@
+require "rails_helper"
+
 describe 'vacation create', :type => :feature do
   it 'can create a vacation' do
     clear_vacations
@@ -5,9 +7,9 @@ describe 'vacation create', :type => :feature do
     country = create_country
 
     visit new_vacation_path
-    select 'Sebastian', from: "Traveler"
-    select 'Argentina', from: "Country"
-    choose 'Favorite'
+    select 'Sebastian', from: "vacation[traveler_id]"
+    select 'Argentina', from: "vacation[country_id]"
+    check 'Favorite'
     click_button('Create Vacation')
 
     expect(Vacation.last).to have_attributes(

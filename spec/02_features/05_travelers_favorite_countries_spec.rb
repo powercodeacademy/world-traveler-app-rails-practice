@@ -1,3 +1,5 @@
+require "rails_helper"
+
 describe 'travelers show with favorite countries', :type => :feature do
   it "displays all countries that are a travelers favorite" do
     traveler = create_traveler
