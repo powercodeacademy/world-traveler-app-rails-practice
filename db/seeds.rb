@@ -13,3 +13,12 @@ Country.destroy_all
   Traveler.create(name: Faker::Name.unique.name, age: rand(18..65))
   Country.create(name: Faker::Address.unique.country, description: Faker::Lorem.sentence)
 end
+
+booleans = [true, false]
+15.times do
+  Vacation.create(
+    traveler: Traveler.all.sample,
+    country: Country.all.sample,
+    favorite: booleans.sample
+  )
+end

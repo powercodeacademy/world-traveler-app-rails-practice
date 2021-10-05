@@ -96,7 +96,7 @@ Show a form to associate a Country with a Traveler. It should have:
 
 After successfully creating a Vacation, the user should be redirected to the selected Country's show page.
 
-### 6. Display Countries' Travelers
+### 6. Display Countries' Travelers - DONE
 
 Update the Country show page to display the Travelers that the country has.
 
