@@ -102,7 +102,7 @@ Update the Country show page to display the Travelers that the country has.
 
 Each traveler should link to the corresponding Traveler show page.
 
-### 7. Display Travelers' Favorite Countries
+### 7. Display Travelers' Favorite Countries - DONE
 
 Update the Traveler show page to display the Countries that are the traveler's favorite Countries to visit
 
