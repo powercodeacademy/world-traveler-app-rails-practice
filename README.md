@@ -67,11 +67,11 @@ A Vacation should have a:
 
 Each Country can have multiple travelers. Travelers can belong to multiple Countries. Each Vacation can be marked as a favorite or not a favorite.
 
-### 2. Country index page links
+### 2. Country index page links - DONE
 
 On the countries index page, a country's name should link to that country's show page.
 
-### 3. Country show page
+### 3. Country show page - DONE
 
 Each Country show page should include the:
 
