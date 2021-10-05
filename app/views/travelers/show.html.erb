@@ -1,2 +1,11 @@
 <h2><%= @traveler.name %></h2>
 <h3><%= @traveler.age %></h3>
+
+<h3>Favorite Countries to Visit</h3>
+<ul>
+  <% @traveler.vacations.each do |vacation| %>
+    <% if vacation.favorite %>
+      <li><%= link_to vacation.country.name, country_path(vacation.country) %></li>
+    <% end %>
+  <% end %>
+</ul>
