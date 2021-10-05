@@ -55,7 +55,7 @@ Update the code of the application to meet the following deliverables. Follow RE
 
 ***Read through these deliverables carefully to understand the requirements for this code challenge. Tackle them one by one, as they build on each other sequentially.***
 
-### 1. Vacation association
+### 1. Vacation association - DONE
 
 Create the association between the models. Update the schema and models to create the Vacation association.
 
