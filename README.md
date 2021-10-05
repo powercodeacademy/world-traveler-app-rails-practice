@@ -78,7 +78,7 @@ Each Country show page should include the:
 - name (eg. Argentina)
 - description (eg. Second Largest Country in South America)
 
-### 4. Traveler show page
+### 4. Traveler show page - DONE
 
 Traveler show page should include the:
 
