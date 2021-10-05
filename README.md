@@ -85,7 +85,7 @@ Traveler show page should include the:
 - name
 - age
 
-### 5. Vacation Create page
+### 5. Vacation Create page - DONE
 
 Show a form to associate a Country with a Traveler. It should have:
 
